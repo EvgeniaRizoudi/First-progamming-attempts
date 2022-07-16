@@ -1,0 +1,33 @@
+.gym {
+  width: 150px;
+  height: 150px;
+  margin: 0px;
+}
+
+.ball {
+  background: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: fixed;
+  margin-top: 55px;
+  margin-left: 123px;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 85px;
+    width: 30px;
+    height: 10px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
