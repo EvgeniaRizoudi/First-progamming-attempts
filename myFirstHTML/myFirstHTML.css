@@ -1,0 +1,174 @@
+h4 {
+  color: rgb(48, 223, 77);
+}
+.unicorns {
+  font-size: 50px;
+  color: palevioletred;
+}
+#introduction {
+  font-size: 55px;
+  font-style: italic;
+  color: rgb(219, 88, 219);
+}
+.Username {
+  font-style: italic;
+  color: rgb(184, 195, 228);
+  animation-name: colorchange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes colorchange {
+  0% {
+    color: rgb(184, 195, 228);
+  }
+  50% {
+    color: blue;
+  }
+  85% {
+    color: violet;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.password {
+  font-style: italic;
+  color: rgb(184, 195, 228);
+  animation-name: colorchange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes colorchange {
+  0% {
+    color: rgb(184, 195, 228);
+  }
+  50% {
+    color: blue;
+  }
+  85% {
+    color: violet;
+  }
+  100% {
+    color: black;
+  }
+}
+.email {
+  font-style: italic;
+  color: rgb(184, 195, 228);
+  animation-name: colorchange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes colorchange {
+  0% {
+    color: rgb(184, 195, 228);
+  }
+  50% {
+    color: blue;
+  }
+  85% {
+    color: violet;
+  }
+  100% {
+    color: black;
+  }
+}
+body {
+  background-image: url(sprincled\ cookie.png);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+h2 {
+  color: rgb(230, 109, 203);
+}
+.music {
+  color: rgb(230, 109, 203);
+}
+.animals {
+  color: rgb(230, 109, 203);
+}
+* {
+  font-size: 50px;
+}
+nav {
+  padding: 50px 0;
+  min-width: 500px;
+}
+.navigation {
+  margin: auto;
+  background: linear-gradient(
+    90deg,
+    white 0%,
+    plum 25%,
+    lightcoral 75%,
+    fuchsia 100%
+  );
+  box-shadow: 0 0 50px rgb(53, 212, 218), inset 0 0 1px lightseagreen;
+  width: fit-content;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  text-align: center;
+}
+.Home {
+  color: lightseagreen;
+  background-color: transparent;
+  border: solid turquoise;
+  border-radius: 15%;
+  margin-left: 5px;
+  margin-right: 0;
+  padding: 3px 1px;
+}
+.Information {
+  color: lightseagreen;
+  background-color: transparent;
+  border: solid turquoise;
+  border-radius: 15%;
+}
+.Contact {
+  color: lightseagreen;
+  background-color: transparent;
+  border: solid turquoise;
+  border-radius: 15%;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 20px 20px;
+  border: 5px dotted thistle;
+}
+td {
+  border-collapse: separate;
+  border-spacing: 20px 20px;
+  border: 5px dotted thistle;
+}
+caption {
+  caption-side: top;
+}
+form {
+  border: double 5px aquamarine;
+  width: fit-content;
+  margin: auto;
+  background: linear-gradient(
+    90deg,
+    lightseagreen 0%,
+    lightcoral 25%,
+    aquamarine 50%,
+    plum 100%
+  );
+}
+background-image {
+  opacity: 0.2;
+}
+p a {
+  margin: 1rem;
+}
+html,
+body {
+  height: 100%;
+}
+h4 {
+  margin: auto;
+}

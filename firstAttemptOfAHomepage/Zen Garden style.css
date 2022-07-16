@@ -1,0 +1,174 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/*This is the header*/
+header {
+  font-family: "Amatic SC", cursive;
+  font-size: 7rem;
+  padding: 10px;
+  margin-left: 35%;
+}
+.imghe1 {
+  width: 45px;
+  height: 45px;
+}
+.imghe2 {
+  width: 45px;
+  height: 45px;
+}
+/*End of header*/
+/*Navigation*/
+body {
+  background-image: url(kindpng_4558300.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 180px;
+  background-size: cover;
+}
+.nav {
+  border: rgb(216, 189, 66) solid 3px;
+  width: fit-content;
+  margin: auto;
+
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.Home {
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  text-decoration-line: none;
+  color: black;
+}
+.Services {
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  text-decoration-line: none;
+  color: black;
+}
+.Articles {
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  text-decoration-line: none;
+  color: black;
+}
+.Gallery {
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  text-decoration-line: none;
+  color: black;
+}
+.Contact {
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  text-decoration-line: none;
+  color: black;
+}
+/*End of Navigation*/
+/*Introduction*/
+.welcome {
+  margin-left: 35%;
+  font-family: "Amatic SC", cursive;
+  font-size: 5rem;
+  color: rgb(9, 10, 10);
+}
+
+.about {
+  opacity: 0;
+  font-family: "Pacifico", cursive;
+  color: rgb(7, 7, 7);
+  font-weight: lighter;
+  font-size: 1rem;
+  transition-property: size, background-color, opacity;
+  transition-duration: 0.2s;
+}
+.about:hover {
+  font-size: 3rem;
+  background: none;
+  opacity: 2;
+}
+
+.about {
+  margin-left: 10%;
+  border-radius: 7%;
+  width: fit-content;
+  height: fit-content;
+}
+.about {
+  size: 3rem;
+}
+.beginning {
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+/*End of Introduction*/
+/*List*/
+h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+}
+ul {
+  border: goldenrod solid 3px;
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+  list-style-type: circle;
+  width: fit-content;
+  border-radius: 10%;
+  margin-left: 5%;
+}
+/*End of List*/
+/*Registration*/
+.registration {
+  border: rgb(196, 152, 43) solid 5px;
+  width: fit-content;
+  text-align: center;
+  height: fit-content;
+  margin: auto;
+  font-family: "Amatic SC", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  border-radius: 35%;
+}
+.submit {
+  background: transparent;
+  border: outset;
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+.signup {
+  text-decoration-line: none;
+  color: rgb(206, 179, 58);
+  transition-property: color, width;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+.signup:hover {
+  color: black;
+}
+/*End of Registration*/
+/*footer*/
+h4 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+}
+img {
+  width: 50px;
+  height: 50px;
+}

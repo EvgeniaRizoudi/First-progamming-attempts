@@ -1,0 +1,28 @@
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  margin-left: 20rem;
+}
+#increment-btn {
+  background: darkred;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: plum;
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: aqua;
+}
+#save-btn {
+  background-color: plum;
+  color: aliceblue;
+}
